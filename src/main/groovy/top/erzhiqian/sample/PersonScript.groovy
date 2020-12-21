@@ -1,4 +1,4 @@
-package top.erzhiqian.basic
+package top.erzhiqian.sample
 
 class PersonScript {
     static void main(String[] args) {
