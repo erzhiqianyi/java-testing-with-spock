@@ -8,7 +8,24 @@ class DefSampleSpec extends Specification {
         when: "number is one"
         int number = 1
 
-        then: "number plus numnber is two"
+        then: "number plus number is two"
         number + number == 2
+    }
+
+    def trivialSumDef(){
+        when: "number is one "
+        int number = 1
+
+        then: "number plus number is two"
+        number + number == 2
+    }
+
+    def "Testing a trivial sum"(){
+        when: "number is one "
+        int number = 1
+
+        then: "number plus number is two"
+        number + number == 2
+
     }
 }
