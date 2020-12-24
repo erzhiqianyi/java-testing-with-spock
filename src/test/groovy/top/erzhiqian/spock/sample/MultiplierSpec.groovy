@@ -1,12 +1,15 @@
 package top.erzhiqian.spock.sample
 
 import spock.lang.Specification
+import top.erzhiqian.spock.sample.math.Adder
+import top.erzhiqian.spock.sample.math.Multiplier
 
 class MultiplierSpec extends Specification {
 
     def "Multiply two numbers and return the result "() {
         when: "a new multiplier class is created"
         def multiplier = new Multiplier()
+
         then: " 3 times 7 is 21"
         multiplier.multiply(3, 7) == 21
     }

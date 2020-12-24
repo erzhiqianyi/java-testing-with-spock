@@ -1,6 +1,8 @@
 package top.erzhiqian.spock.sample;
 
 import org.junit.Test;
+import top.erzhiqian.spock.sample.math.Adder;
+import top.erzhiqian.spock.sample.math.BugMultiplier;
 
 import static org.junit.Assert.assertEquals;
 

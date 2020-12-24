@@ -1,6 +1,7 @@
 package top.erzhiqian.spock.sample
 
 import spock.lang.Specification
+import top.erzhiqian.spock.sample.math.Adder
 
 class AdderSpec extends Specification {
 
