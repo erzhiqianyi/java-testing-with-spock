@@ -34,6 +34,11 @@ public class WarehouseInventory {
         }
     }
 
+
+    public boolean isProductAvailable(String productName,int count){
+       int now = availableOfProduct(productName) ;
+       return count  <= now;
+    }
     public boolean isEmpty() {
         return inventory.isEmpty();
     }
@@ -41,6 +46,7 @@ public class WarehouseInventory {
     public int getBoxesMovedToday() {
         return boxesMovedOut;
     }
+
 
 
 }

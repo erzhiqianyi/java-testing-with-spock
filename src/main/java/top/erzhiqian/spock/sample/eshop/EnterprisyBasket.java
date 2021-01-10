@@ -24,6 +24,7 @@ public class EnterprisyBasket extends Basket {
 
     }
 
+    @Override
     public void setWarehouseInventory(WarehouseInventory warehouseInventory) {
         this.warehouseInventory = warehouseInventory;
     }
